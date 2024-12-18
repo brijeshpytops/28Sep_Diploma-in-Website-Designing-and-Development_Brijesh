@@ -177,3 +177,116 @@ Client-Side and Server-Side Scripting Languages
     - E-commerce: Shopping carts, product listings, and order processing.
     - Content Management Systems (CMS): Like WordPress, Drupal, and Joomla.
     - Database Queries: Server connects to MySQL, PostgreSQL, or MongoDB to retrieve or update data.
+
+
+Q6] Domains and Hosting: An Overview
+
+What is a Domain?
+    "A domain is the unique name or address that identifies a website on the internet. It acts as a human-readable link to access a website instead of using its IP address."
+
+    Key Concepts:
+
+    Example: www.google.com, www.amazon.com
+    Structure:
+        - Protocol: https://
+        - Subdomain: www
+        - Domain Name: google
+        - Top-Level Domain (TLD): .com, .org, .net, etc.
+
+    Types of Domains:
+        - Top-Level Domains (TLDs): .com, .org, .net, .edu, etc.
+        - Country Code TLDs (ccTLDs): .in (India), .us (USA), .uk (United Kingdom), etc.
+        - Generic TLDs (gTLDs): .store, .tech, .info, .online, etc.
+
+
+What is Web Hosting?
+    "Web Hosting refers to the service of storing website files (HTML, CSS, images, and scripts) on a server that makes them accessible on the internet."
+
+    When you type a domain name in the browser, the hosting server delivers the content of the website to your browser.
+
+    Key Concepts:
+        - Server: A computer where the website files are stored.
+        - Web Server Software: Apache, Nginx, etc., which handle requests and deliver responses.
+
+
+    Types of Web Hosting:
+        1] Shared Hosting
+            - Multiple websites share resources (CPU, RAM, Disk space) on a single server.
+            - Best for: Beginners, small blogs, and small business websites.
+            - Example Providers: Bluehost, HostGator.
+
+        2] VPS (Virtual Private Server) Hosting
+
+            A single server is partitioned into multiple virtual servers.
+            Best for: Websites needing more control and customization.
+            Example Providers: DigitalOcean, Linode.
+
+        3] Dedicated Hosting
+
+            You get an entire server dedicated to your website.
+            Best for: High-traffic websites, large e-commerce platforms.
+            Example Providers: SiteGround, LiquidWeb.
+
+        4] Cloud Hosting
+
+            Uses multiple servers to host your website.
+            Best for: Websites with unpredictable traffic or scaling needs.
+            Example Providers: AWS, Google Cloud, Microsoft Azure.
+
+        5] Managed Hosting
+
+            Hosting provider manages technical tasks (backups, security, etc.).
+            Best for: Users without technical knowledge.
+            Example Providers: Kinsta, WP Engine.
+
+        6] Reseller Hosting
+            You buy hosting space and resell it to your own customers.
+            Best for: Entrepreneurs who want to offer hosting services.
+
+    Key Differences: Domain vs Hosting
+    Criteria	    Domain	                                Web Hosting
+    -------------------------------------------------------------------
+    Definition	    Address of the website	                Space where website files are stored
+    Purpose	        Identifies the website	                Stores the content of the website
+    Example	        example.com	Hosting server              from Bluehost, AWS, etc.
+    Relation	    Required for website URL	            Required to make the website live
+    Purchase From	Domain Registrars (GoDaddy, Namecheap)	Hosting Providers (Bluehost, AWS)
+
+
+Q7] Difference Between Static and Dynamic Websites [Types of Websites]
+Criteria	        Static Website	                Dynamic Website
+-------------------------------------------------------------------
+Content	            Fixed, does not change	        Changes dynamically, user-specific
+Technology	        HTML, CSS, JavaScript only	    Uses server-side scripting (PHP, Python, Node.js)
+Database	        No database required	        Requires a database (MySQL, MongoDB)
+User Interaction	Limited (view-only)	            Interactive (forms, comments, login)
+Complexity	        Simple to develop	            Complex due to server-side logic
+Load Speed	        Loads faster	                Slightly slower (server processing)
+Use Case	        Portfolio, Informational sites	E-commerce, social media, blogs
+Cost	            Cheaper to develop & host	    Expensive due to backend logic
+
+Q8] 🌐 Web Standards and W3C Recommendations
+
+What are Web Standards?
+    Web Standards are a set of guidelines and technical specifications for web development to ensure websites are accessible, compatible, and user-friendly across different devices, browsers, and platforms.
+
+    Key Objectives of Web Standards:
+        - Cross-browser Compatibility: Websites work on all browsers (like Chrome, Firefox, Safari, etc.).
+        - Accessibility: Websites are usable by people with disabilities (screen readers, etc.).
+        - Responsive Design: Works across different devices (mobile, tablet, desktop).
+        - SEO-friendly: Helps search engines crawl and rank pages efficiently.
+        - Future-proofing: Ensures long-term website support with new browsers/technologies.
+
+What is W3C (World Wide Web Consortium)?
+    The W3C (World Wide Web Consortium) is an international organization that develops and maintains web standards. It was founded by Tim Berners-Lee, the inventor of the web.
+
+    - Purpose: To create standards that make the web accessible, interoperable, and future-proof.
+    - W3C's Role: Recommends standards for HTML, CSS, XML, SVG, Web Accessibility (WCAG), etc.
+
+Importance of W3C Recommendations
+
+    - Interoperability: Websites work on all browsers, platforms, and devices.
+    - Accessibility: People with disabilities can use the website with tools like screen readers.
+    - Future-proofing: Websites remain functional as browsers are updated.
+    - SEO Benefits: Proper structure and semantic HTML improve search engine rankings.
+    - Improved User Experience: Faster, better, and accessible experiences for all users.
