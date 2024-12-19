@@ -290,3 +290,38 @@ Importance of W3C Recommendations
     - Future-proofing: Websites remain functional as browsers are updated.
     - SEO Benefits: Proper structure and semantic HTML improve search engine rankings.
     - Improved User Experience: Faster, better, and accessible experiences for all users.
+
+Q9] Basics of SEO (Search Engine Optimization)
+    SEO (Search Engine Optimization) is the process of improving a website’s visibility on search engines (like Google, Bing, Yahoo) to drive organic (non-paid) traffic. The better the visibility, the higher the chance of getting visitors from search engines.
+
+    SEO Best Practices:
+
+        - Write high-quality content (Use keywords naturally, avoid keyword stuffing).
+        - Optimize images (Use "alt" text for images and compress them for faster loading).
+        - Use clean URLs (Avoid random characters and use meaningful URLs like /seo-basics/).
+        - Internal Linking (Link to other pages on your own site to keep visitors engaged).
+        - Monitor Analytics (Track your website's SEO performance using Google Analytics and Google Search Console).
+
+    SEO Tools:
+
+        - Google Analytics – Tracks user activity and website performance.
+        - Google Search Console – Tracks index status, site errors, and search performance.
+        - SEMrush – Provides SEO audits, backlink analysis, and keyword research.
+        - Ahrefs – Analyzes backlinks, competitor research, and keyword tracking.
+        - Yoast SEO – A WordPress plugin to optimize on-page SEO.
+
+    Benefits of SEO:
+
+        - More Traffic: Increases organic traffic to your website.
+        - Higher Credibility: Websites at the top of search results are perceived as more credible.
+        - Cost-Effective: Unlike paid ads, SEO generates free traffic.
+        - Better User Experience: Faster, more responsive websites offer a better experience.
+        - Long-Term Results: SEO offers lasting results compared to paid marketing.
+
+    Simple SEO Checklist:
+        - ✅ Use descriptive Title Tags and Meta Descriptions.
+        - ✅ Add H1, H2, and H3 tags in your content.
+        - ✅ Add internal links to connect pages.
+        - ✅ Improve page speed and mobile-friendliness.
+        - ✅ Use tools like Google Analytics to track SEO performance.
+
