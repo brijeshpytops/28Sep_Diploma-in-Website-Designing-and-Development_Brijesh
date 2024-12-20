@@ -1,0 +1,75 @@
+Q1] What is HTML
+
+    HTML (HyperText Markup Language) is the standard markup language used to create web pages. It provides the structure of a webpage, allowing the use of text, images, videos, links, and interactive elements. HTML is the backbone of the web, and it works alongside CSS (Cascading Style Sheets) and JavaScript to create beautiful, interactive, and responsive websites.
+
+     What Does HTML Stand For?
+        - H: Hyper (Links pages on the web)
+        - T: Text (Handles text content)
+        - M: Markup (Uses tags to mark elements)
+        - L: Language (A set of rules and syntax for web development)
+
+    Features of HTML
+        - Simple and Easy to Learn: HTML has simple tags and attributes.
+        - Platform Independent: Works on all devices (PC, Mobile, Tablet) and web browsers.
+        - Hyperlinks: Connects web pages using hyperlinks (<a> tag).
+        - Media Embedding: Supports images, videos, and audio files.
+        - Document Structure: Provides the structure of a webpage (headings, paragraphs, lists, etc.).
+        - Interactive Elements: Adds forms, buttons, and inputs for user interaction.
+        - SEO Friendly: Helps search engines understand page structure for better rankings.
+
+    Key Points About HTML
+        - Markup Language: It uses tags to define the structure and content of a webpage.
+        - Building Block of Web Pages: HTML is the foundation of every website.
+        - Platform-Independent: It can be viewed on any device with a web browser (mobile, tablet, desktop, etc.).
+        - Static Content: By itself, HTML is static, but combined with CSS and JavaScript, it becomes dynamic.
+        - Easy to Learn: HTML has a simple syntax and is beginner-friendly.
+
+
+Q2] What is a Text Editor for HTML?
+    A text editor for HTML is a software application that allows you to write, edit, and manage HTML code. It provides a simple interface for coding and helps developers create, structure, and format web pages. Text editors range from basic editors (like Notepad) to advanced code editors (like VS Code) that offer features like syntax highlighting, autocompletion, and error detection.
+
+    Types of HTML Text Editors
+    HTML text editors can be divided into two categories:
+
+    Basic Text Editors
+    ------------------
+    Example: Notepad (Windows), TextEdit (macOS)
+    Features: Minimal interface, no syntax highlighting, no advanced features.
+    Use Case: Suitable for absolute beginners to understand basic HTML structure.
+
+    Advanced Text Editors / IDEs (Integrated Development Environments)
+    ------------------------------------------------------------------
+    Example: VS Code, Sublime Text, Atom, Brackets, WebStorm, Notepad++
+    Features: Syntax highlighting, autocomplete, error detection, extensions, plugins.
+    Use Case: Ideal for professional development and larger projects.
+
+Q3] What is a Web Browser?
+    A web browser is a software application used to access, retrieve, and display content from the World Wide Web (WWW). It allows users to view web pages, play videos, and interact with online services through a graphical user interface (GUI). Web browsers interpret HTML, CSS, and JavaScript code to render web pages on your screen.
+
+    How Does a Web Browser Work?
+    - URL Input: You enter a website's URL (e.g., www.google.com) in the browser's address bar.
+    - DNS Resolution: The browser contacts a DNS server to convert the URL into an IP address.
+    - Request to Server: It sends a request to the web server to access the website's content.
+    - Response from Server: The server sends HTML, CSS, and JavaScript files back to the browser.
+    - Rendering the Page: The browser processes and displays the web page as text, images, and interactive elements.
+
+    Browser Name	Developer	        Platform	                        Key Features
+    ------------------------------------------------------------------------------------------------------------------
+    Google Chrome	Google	            Windows, macOS, Linux, iOS, Android	Fast, simple, and has many extensions
+    Mozilla Firefox	Mozilla Foundation	Windows, macOS, Linux, iOS, Android	Privacy-focused, customizable, open-source
+    Microsoft Edge	Microsoft	        Windows, macOS, iOS, Android	    Built on Chromium, supports extensions
+    Safari	        Apple	            macOS, iOS	                        Fastest for macOS, power-efficient
+    Opera	        Opera Software	    Windows, macOS, Linux, iOS, Android	Free VPN, ad-blocker, lightweight
+    Brave	        Brave Software	    Windows, macOS, Linux, iOS, Android	Privacy-first, blocks ads by default
+
+    Common Web Browser  Shortcuts
+    -----------------------------
+    Shortcut	        Action
+    Ctrl + T	        Open a new tab
+    Ctrl + W	        Close the current tab
+    Ctrl + Shift + N	Open a new incognito/private window
+    Ctrl + H	        View browsing history
+    Ctrl + D	        Bookmark the current page
+    Ctrl + R	        Reload/refresh the current page
+    F12	                Open Developer Tools
+    Ctrl + Shift + Del	Clear cache, cookies, and browsing history
