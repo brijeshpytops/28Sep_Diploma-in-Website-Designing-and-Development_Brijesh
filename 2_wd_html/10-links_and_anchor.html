@@ -1,0 +1,74 @@
+<!-- 
+Links in HTML are created using the anchor <a> tag (also known as anchor tags). The <a> tag allows you to create clickable links that navigate to other webpages, sections within the same page, or even external resources.
+
+    1] href: This attribute specifies the destination URL or target location that the link should navigate to. It can contain absolute URLs (e.g., "https://www.example.com"), relative URLs (e.g., "page.html"), or anchor names for linking within the same page. 
+
+    2] target: This attribute determines how the linked page or resource should be displayed. Common values include:
+        _blank: Opens the linked page in a new browser tab or window. 
+
+        _self: Opens the linked page in the same browser tab or window (default     behavior). 
+
+        _parent: Opens the linked page in the parent frame, if the current page is within a frame. 
+
+        _top: Opens the linked page in the full body of the window, breaking out of any frames. 
+
+    3] download: This attribute, when present, suggests that the linked URL should be downloaded rather than navigated to. It specifies the filename that the downloaded file should have. For example:
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links and anchor</title>
+</head>
+<body>
+    <!-- basic anchor tag -->
+     <!-- <a href="https://www.instagram.com/">Instagram</a> -->
+     <!-- <a href="https://www.instagram.com/">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRTmGni8yeDHX-Ku6M9eaBxdUD7obsmEQdog&s" alt="" height="50px">
+     </a> -->
+
+     <!-- <div>
+        <div style="text-align: center;">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#blogs">blogs</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div id="home" style="border: 1px solid black; height: 200px; text-align: center;">
+            <h2>Welcome to Home</h2>
+            <p>This is the home page.</p>
+        </div>
+        <div id="services"style="border: 1px solid black; height: 200px; text-align: center;">
+            <h2>Services</h2>
+            <p>This is the services page.</p>
+        </div>
+        <div id="blogs"style="border: 1px solid black; height: 200px; text-align: center;">
+            <h2>Blogs</h2>
+            <p>This is the blogs page.</p>
+        </div>
+        <div id="contact"style="border: 1px solid black; height: 200px; text-align: center;">
+            <h2>Contact</h2>
+            <p>This is the contact page.</p>
+        </div>
+     </div> -->
+
+     <!-- <a href="/Diploma in Website Designing and Development Lectureflow.pdf" download>Download PDF</a> -->
+
+     <!-- <a href="mailto:info@example.com">Send Email</a> -->
+
+     <!-- <div id="parent" style="height: 300px; border: 1px solid red;">
+        <a href="child1.html">Go to Child Page</a>
+        <a href="child2.html">Go to Child Page</a>
+        <a href="https://www.instagram.com/" target="_parent">Target_Parent</a><br>
+     </div> -->
+
+     <a href="https://www.instagram.com/" target="_blank">Target_Blank</a><br>
+     <a href="https://www.instagram.com/" target="_self">Target_Self</a><br>
+     <a href="https://www.instagram.com/" target="_parent">Target_Parent</a><br>
+     <a href="https://www.instagram.com/" target="_top">Target_Top</a>
+    </body>
+</html>
