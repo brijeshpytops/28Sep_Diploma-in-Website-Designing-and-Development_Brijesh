@@ -1,123 +1,36 @@
-<!-- 
- table is a structured way of displaying data in rows and columns. It allows you to organize and present tabular data in a visually appealing and structured manner. HTML tables consist of several elements that work together to define the table structure and content. 
-
-Table Structure:
-The <table> element: It serves as the container for the entire table. 
-The <tr> element: It represents a table row and contains the cells of the table. 
-The <th> element: It represents a table header cell and is typically used in the first row of the table to define column headings. 
-The <td> element: It represents a table data cell and is used to define the content within each cell of the table.
-
-Table caption:
-The <caption> element: it provides a caption or title for the table
-
-
-Table Head, Body, and Footer sections:
-The <thead> element: It represents the table head section and contains the header rows. 
-The <tbody> element: It represents the table body section and contains the data rows. 
-The <tfoot> element: It represents the table footer section and contains footer rows.
-
-
-Spanning rows and columns:
-The colspan attribute: It specifies how many columns a cell should span. 
-The rowspan attribute: It specifies how many rows a cell should span.
-
-Cellpadding and cellspacing
-	Cellpadding: 
-
-Definition: The cellpadding attribute in HTML tables specifies the amount of space (padding) between the content of a cell and its border. It creates space inside each cell, between the cell content (like text or images) and the cell's border. 
-Usage: The value is typically given in pixels.
-
-
- 
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table</title>
+    <title>style</title>
+    <style>
+        #blog{
+            width: 50%;
+            text-align: justify;
+        }
+
+        #blog h3{
+            color: royalblue;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        #blog p{
+            font-size: 18px;
+            line-height: 1.2;
+        }
+
+        #blog strong{
+            font-weight: bold;
+            font-size: 24px;
+            color: royalblue;
+        }
+    </style>
 </head>
 <body>
-    <!-- <table border="1">
-        <caption>Employee Details</caption>
-        <tr>
-            <td>ID</td>
-            <td>Name</td>
-            <td>Age</td>
-        </tr>
-        <tr>
-            <td>#001</td>
-            <td>Brijesh Gondaliya</td>
-            <td>28</td>
-        </tr>
-        <tr>
-            <td>#002</td>
-            <td>Jay Patel</td>
-            <td>24</td>
-        </tr>
-    </table> -->
-
-    <!-- <table border="1">
-        <caption>Employee Details</caption>
-        <thead>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Age</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>#001</td>
-                <td>Brijesh Gondaliya</td>
-                <td>28</td>
-            </tr>
-            <tr>
-                <td>#002</td>
-                <td>Jay Patel</td>
-                <td>24</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td>Total Employees: 2</td>
-            </tr>
-        </tfoot>
-        
-    </table> -->
-
-    <table border="1" cellpadding="10" cellspacing="20">
-        <caption>Employee Details</caption>
-        <thead>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Departments</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>#001</td>
-                <td>Brijesh Gondaliya</td>
-                <td>28</td>
-                <td rowspan="2">IT</td>
-            </tr>
-            <tr>
-                <td>#002</td>
-                <td>Jay Patel</td>
-                <td>24</td>
-            </tr>
-            <tr>
-                <td>#003</td>
-                <td>Ashley Johnson</td>
-                <td>30</td>
-                <td>HR</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="4">Total Employees: 3</td>
-            </tr>
-        </tfoot>
-        
-    </table>
+    <div id="blog">
+        <h3>Lorem ipsum dolor sit.</h3>
+        <p><strong>L</strong>orem ipsum dolor sit amet consectetur adipisicing elit. Numquam incidunt iste mollitia labore est ex sed, minima nihil dolore? Atque! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum asperiores ratione dolores veniam mollitia autem sunt unde nobis similique voluptatibus?</p>
+    </div>
 </body>
 </html>

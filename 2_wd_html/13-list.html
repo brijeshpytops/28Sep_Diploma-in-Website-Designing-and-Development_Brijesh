@@ -1,0 +1,122 @@
+<!-- 
+Lists are a fundamental element in HTML that allow you to organize and present information in a structured manner. There are three main types of lists in HTML: ordered lists, unordered lists, and definition lists.
+
+Ordered Lists (`<ol>`) :
+An ordered list is a numbered list where each item is sequentially numbered. It is created using the <ol> tag. 
+
+You can specify the type attribute for <ol> (ordered lists) in HTML. The type attribute allows you to explicitly define the numbering style for the ordered list. The supported values for the type attribute are: 
+1 (default) - Decimal numbers (1, 2, 3, ...) 
+a - Lowercase letters (a, b, c, ...) 
+A - Uppercase letters (A, B, C, ...) 
+i - Lowercase Roman numerals (i, ii, iii, ...) 
+I - Uppercase Roman numerals (I, II, III, ...) 
+
+
+Unordered Lists (`<ul>`) :
+An unordered list is a bullet-pointed list where each item is preceded by a bullet or any other marker. It is created using the <ul> tag. 
+
+
+Definition Lists (`<dl`) : 
+A definition list is a list where each item consists of a term (label) followed by its definition. It is created using the <dl> tag, along with <dt> (definition term) for the term and <dd> (definition description) for the definition. 
+
+list-style-image: This property allows you to use a custom image as the bullet or marker for list items. You can specify a URL to an image file, and it will replace the default bullet. For example:
+
+list-style-position: By default, the bullet or marker of a list appears outside the content's margin. You can use the list-style-position property to change the position. The inside value moves the bullet or marker inside the content box.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+    <style>
+          li {
+            list-style: none;
+        }
+ 
+        /* Set the list image as background image*/
+        li {
+            list-style: none;
+            padding: 10px 30px;
+            background-image: url(
+"https://freepngimg.com/save/599-red-star-png-image/200x200");
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 20px;
+            list-style-position: inside;
+        }
+    </style>
+</head>
+<body>
+    <!-- default start with numbers -->
+    <!-- <h1>Ordered list</h1>
+    <ol type="A" start="">
+        <li>Python</li>
+        <li>java</li>
+        <li>Php</li>
+        <li>Html</li>
+        <li>Css</li>
+    </ol> -->
+
+    <!-- default start with disk -->
+    <!-- <h1>Unordered list</h1>
+    <ul type="circle">
+        <li>Python</li>
+        <li>java</li>
+        <li>Php</li>
+        <li>Html</li>
+        <li>Css</li>
+    </ul> -->
+
+    <!-- <dl>
+        <h1>Definition Lists</h1>
+        <dt>Redmi 13 5G</dt>
+        <dd>Display: Large 17.24cm FHD+ 120Hz AdaptiveSync display with Corning Gorilla Glass 3 Protection, TÜV Rheinland low blue light, TÜV flicker-free, TÜV Circadian Friendly, Wet finger touch display</dd>
+
+        <dt>Samsung Galaxy S21 Ultra 5G</dt>
+        <dd>Display: Super AMOLED 22.59cm (108.9:1) FHD+ 120Hz Gorilla Glass 5X protection, OLED-backlit display, TÜV Rheinland low blue light, TÜV flicker-free, TÜV Circadian Friendly, Wet finger touch display</dd>
+        
+        <dt>Apple iPhone 14 Pro Max</dt>
+        <dd>Display: Super Retina XDR OLED 6.1 inch (326:96) Liquid Retina HD+ 120Hz, A15 Bionic chip, A15 Bionic GPU, Apple Pencil support, Touch ID, Face ID, A15 Bionic, 5G, Wi-Fi 6, Bluetooth 5.2, USB-C 3.1, 12MP front camera
+    </dl> -->
+
+    <!-- <h1>Nested list</h1>
+    <ol>
+        <li>Python
+            <ul>
+                <li>Python 3.0</li>
+                <li>Python 2.0</li>
+            </ul>
+        </li>
+        <li>Java
+            <ul>
+                <li>Java 1.1</li>
+                <li>Java 1.2</li>
+            </ul>
+        </li>
+        <li>Php
+            <ul>
+                <li>Php 5.2</li>
+                <li>Php 5.3</li>
+            </ul>
+        </li>
+        <li>Html
+            <ul>
+                <li>Html 4.01</li>
+                <li>Html 5</li>
+            </ul>
+        </li>
+        <li>Css
+            <ul>
+                <li>Css 1</li>
+                <li>Css 2</li>
+            </ul>
+        </li>
+    </ol> -->
+
+
+
+</body>
+</html>
