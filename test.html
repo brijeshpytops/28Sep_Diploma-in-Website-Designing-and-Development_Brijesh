@@ -3,34 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>style</title>
-    <style>
-        #blog{
-            width: 50%;
-            text-align: justify;
-        }
-
-        #blog h3{
-            color: royalblue;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
-
-        #blog p{
-            font-size: 18px;
-            line-height: 1.2;
-        }
-
-        #blog strong{
-            font-weight: bold;
-            font-size: 24px;
-            color: royalblue;
-        }
-    </style>
+    <title>Forms</title>
 </head>
 <body>
-    <div id="blog">
-        <h3>Lorem ipsum dolor sit.</h3>
-        <p><strong>L</strong>orem ipsum dolor sit amet consectetur adipisicing elit. Numquam incidunt iste mollitia labore est ex sed, minima nihil dolore? Atque! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum asperiores ratione dolores veniam mollitia autem sunt unde nobis similique voluptatibus?</p>
-    </div>
+    <!-- <form action="" method="" enctype="">
+        <label for="username">username</label>
+        <input type="text" id="username"> <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email"> <br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password"> <br><br>
+
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" id="confirmPassword"> <br><br>
+
+        <input type="submit" value="Signup"> -->
+
+        <fieldset>
+            <legend>Widgets types</legend>
+
+            <table>
+                <tr>
+                    <td>
+                        <label for="">Text</label>
+                    </td>
+                    <td>
+                        <input type="text" id="" name="" placeholder="add something...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Email</label>
+                    </td>
+                    <td>
+                        <input type="email" placeholder="Example@gmail.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Telephone</label></td>
+                    <td>
+                        <input type="tel" placeholder="123-456-7890">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender</label></td>
+                    <td>
+                        <input type="radio" name="" id=""> Male
+                        <input type="radio" name="" id=""> Female
+                        <input type="radio" name="" id=""> Others
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Role</label></td>
+                    <td>
+                       <select name="" id="">
+                        <option value="" disabled>Coose your role</option>
+                        <option value="">Developer</option>
+                        <option value="">Designer</option>
+                        <option value="">Tester</option>
+                        <option value="">Manager</option>
+                       </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Password</label></td>
+                    <td>
+                        <input type="password" placeholder="**********">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
 </body>
 </html>
