@@ -1,0 +1,185 @@
+<!-- 
+ 
+Form controls:
+Here's a list of commonly used form controls in HTML along with their attributes and brief descriptions:
+Input Fields: 
+<input type="text">: Allows users to enter a single line of text. 
+<input type="password">: Conceals the input text, commonly used for passwords. 
+<input type="email">: Validates and collects an email address. 
+<input type="number">: Accepts numeric input. 
+<input type="date">: Provides a date input field. 
+<input type="checkbox">: Represents a checkbox for multiple selections. 
+<input type="radio">: Represents a radio button for single selections. 
+<input type="file">: Enables file upload functionality. 
+<input type="submit">: Submits the form data. 
+<input type="reset">: Resets the form to its initial state. 
+<input type="button">: Creates a clickable button without any default behavior. 
+<input type="color">: Allows users to select a color from a color picker. 
+<input type="range">: Provides a slider input for selecting a value within a specified range. 
+<input type="time">: Enables users to input a time value. 
+<input type="week">: Allows users to select a week from a calendar. 
+<input type="month">: Enables users to select a month and year from a dropdown. 
+<input type="url">: Validates and collects a URL input. 
+<input type="tel">: Validates and collects a telephone number input. 
+<input type="search">: Indicates that the input field is used for search queries. 
+<input type="datetime-local">: Allows users to input a date and time value. 
+<input type="image">: Represents an image used as a submit button.
+Textarea: 
+<textarea>: Allows users to enter multiple lines of text. 
+Select Dropdown: 
+<select>: Creates a dropdown list for single or multiple selections. 
+<option>: Defines the available options within a <select> dropdown. 
+Buttons: 
+<button>: Creates a clickable button, often used in combination with JavaScript. 
+<input type="button">: Similar to <button>, creates a clickable button. 
+<input type="submit">: Submits the form data. 
+<input type="reset">: Resets the form to its initial state. 
+Checkboxes and Radio Buttons: 
+<input type="checkbox">: Represents a checkbox for multiple selections. 
+<input type="radio">: Represents a radio button for single selections. 
+File Upload: 
+<input type="file">: Enables file upload functionality. 
+Hidden Input: 
+<input type="hidden">: Provides a way to store data that is not visible to the user. 
+Form Control Attributes: 
+name: Specifies the name of the form control, used to identify it when the form is submitted. 
+value: Defines the initial value or the value to be submitted. 
+placeholder: Displays a short hint or example text within the input field. 
+required: Specifies that the field must be filled out before the form can be submitted. 
+disabled: Disables the form control, preventing user interaction. 
+readonly: Specifies that the form control is read-only and cannot be modified by the user. 
+maxlength: Defines the maximum number of characters allowed in an input field. 
+pattern: Specifies a regular expression pattern for input validation.
+
+Form submit and reset buttons:
+<input type="submit"> and <input type="reset"> create buttons that trigger the form submission or reset the form, respectively. 
+Alternatively, <button> elements can be used for custom buttons with additional functionality.
+
+Form Fieldset and Legend:
+<fieldset> provides a way to group related form controls together. 
+The <legend> element inside <fieldset> gives a caption or title to the grouped controls.
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- <form action="" method="" enctype="">
+        <label for="username">username</label>
+        <input type="text" id="username"> <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email"> <br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password"> <br><br>
+
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" id="confirmPassword"> <br><br>
+
+        <input type="submit" value="Signup"> -->
+
+        <!-- <fieldset>
+            <legend>Widgets types</legend>
+
+            <table>
+                <tr>
+                    <td>
+                        <label for="">Fullname (text)</label>
+                    </td>
+                    <td>
+                        <input type="text" id="" name="" placeholder="add something...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Email (email)</label>
+                    </td>
+                    <td>
+                        <input type="email" placeholder="Example@gmail.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Telephone (tel)</label></td>
+                    <td>
+                        <input type="tel" placeholder="123-456-7890">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender (redio)</label></td>
+                    <td>
+                        <input type="radio" name="" id=""> Male
+                        <input type="radio" name="" id=""> Female
+                        <input type="radio" name="" id=""> Others
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dob">Date of birth (date)</label>
+                    </td>
+                    <td>
+                        <input type="date" id="dob">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Color (color)</label></td>
+                    <td><input type="color" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Role (select, option)</label></td>
+                    <td>
+                       <select name="" id="">
+                        <option value="" disabled>Coose your role</option>
+                        <option value="">Developer</option>
+                        <option value="">Designer</option>
+                        <option value="">Tester</option>
+                        <option value="">Manager</option>
+                       </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Password (password)</label></td>
+                    <td>
+                        <input type="password" placeholder="**********">
+                    </td>
+                </tr>
+            </table>
+        </fieldset> -->
+
+        <!-- <form action="">
+            <fieldset>
+                <legend>Personal Information</legend>
+            
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+              </fieldset>
+            
+              <fieldset>
+                <legend>Preferences</legend>
+            
+                <label for="color">Favorite Color:</label>
+                <input type="text" id="color" name="color">
+            
+                <label for="animal">Favorite Animal:</label>
+                <input type="text" id="animal" name="animal">
+              </fieldset>
+            
+              <input type="submit" value="Submit">
+              <input type="reset" value="Reset">
+            
+        </form> -->
+    </form>
+</body>
+</html>
