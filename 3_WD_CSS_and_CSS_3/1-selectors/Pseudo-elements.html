@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div > p::first-letter{
+            font-size: 3em;
+            font-weight: bold;
+            color: red;
+        }
+
+        div > p::first-line {
+            font-size: 2em;
+            font-weight: bold;
+            color: blue;
+        }
+
+        div > p::before {
+            content: "'";
+            font-size: 1.5em;
+            color: green;
+        }
+        div > p::after {
+            content: "'";
+            font-size: 1.5em;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <!-- Select and style parts of an element. -->
+
+    <div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores quia obcaecati minus eveniet animi molestiae ex maiores quaerat. Quaerat consequatur numquam autem omnis natus beatae exercitationem atque qui aspernatur temporibus. Perferendis, expedita natus. Pariatur hic incidunt doloribus ad mollitia sed alias, repellendus distinctio corporis fugit modi, tempora quas cumque unde error ipsam et delectus, ducimus obcaecati nam porro beatae accusamus nostrum odit! Obcaecati numquam perferendis rem molestias libero saepe impedit, aut sapiente eos nihil id architecto laborum nesciunt suscipit, sit harum similique. Explicabo enim aliquam, consequatur voluptatum eveniet cupiditate minus, culpa, illo eos omnis excepturi id unde. Eligendi, quos velit!</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* [href]{
+            color: blue;
+            text-decoration: none;
+        } */
+
+      /* [href="https://example.com"]
+      {
+        color: blue;
+        text-decoration: none
+      } */
+       
+      [type="text"], [type="email"], [type="password"]{
+        width: 200px;
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+      
+      [type="submit"] {
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Selects elements based on their attributes. -->
+
+    <a href="https://example.com">Facebook</a>
+
+    <fieldset>
+      <legend>Registration Form</legend>
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="fname" required /><br /><br />
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lname" required /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+      <label for="pwd">Password:</label>
+      <input type="password" id="pwd" name="pwd" required /><br /><br />
+      <input type="submit" value="Submit" />
+    </fieldset>
+  </body>
+</html>

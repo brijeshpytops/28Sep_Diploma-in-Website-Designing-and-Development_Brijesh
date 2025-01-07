@@ -1,0 +1,28 @@
+CSS selectors are patterns used to select and style HTML elements based on their attributes, relationships, or positions in the document. They are a fundamental part of CSS, allowing developers to target specific elements to apply styles.
+
+
+List of CSS Selectors
+---------------------
+1] Universal Selector (*)
+2] Type Selector (Element Selector)
+3] Class Selector (.)
+4] ID Selector (#)
+5] Group Selector
+6] Descendant Selector (Space)
+7] Child Selector (>)
+8] Adjacent Sibling Selector (+)
+9] General Sibling Selector (~)
+10] Attribute Selector
+11] Pseudo-classes
+12] Pseudo-elements
+13] Combinators
+    - Descendant ( )
+    - Child (>)
+    - Adjacent Sibling (+)
+    - General Sibling (~)
+14] Nth-Child and Variants
+
+
+
+
+

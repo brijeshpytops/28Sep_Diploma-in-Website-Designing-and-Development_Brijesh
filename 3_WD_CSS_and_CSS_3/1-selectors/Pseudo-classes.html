@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Select elements with class 'highlight' */
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        .highlight:hover{
+            background-color: lightblue;
+            color: blue;
+        }
+
+        [type="text"]{
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        [type="text"]:focus{
+            border: 2px solid blue;
+            outline: none;
+            color: blue;
+        }
+
+        /* Select elements by their position: */
+        /* :nth-child(n): Selects every nth child of its parent element. */
+        /* :nth-child(2n): Selects every second child of its parent element. */
+        /* :nth-child(even): Selects every even child of its parent element. */
+        /* :nth-child(odd): Selects every odd child of its parent element. */
+        /* :nth-child(3n+1): Selects every third child of its parent element starting from the first one. */
+        /* :nth-child(3n+2): Selects every third child of its parent element starting from the second one. */
+        /* :nth-child(3n+3): Selects every third child of its parent element starting from the third one. */
+
+        /* div > p:first-child{
+            color: lightseagreen;
+        }
+
+        div > p:last-child{
+            color: lightseagreen;
+        } */
+
+        /* div > p:nth-child(even){
+            color: lightseagreen;
+        } */
+
+        /* div > p:nth-child(odd){
+            color: lightseagreen;
+        } */
+
+        div > p:nth-child(3){
+            color: lightseagreen;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Select elements based on their state or position. -->
+
+    <!-- Select elements by their state: -->
+    <!-- <p class="highlight">This is a highlighted paragraph.</p> -->
+
+    <!-- <input type="text"> -->
+
+    <div>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, soluta!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis ipsa at sed reiciendis eos sapiente!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, cupiditate blanditiis? A dolorem culpa saepe deleniti rerum.</p>
+    </div>
+
+</body>
+</html>
