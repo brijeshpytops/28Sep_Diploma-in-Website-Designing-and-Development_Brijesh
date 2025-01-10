@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        #box{
+            font-size: 20px;
+            color: #a955a2;
+            padding: 20px;
+            border: 1px solid black;
+            margin: 20px;
+        }
+
+        /* 
+
+        The total width of an element should be calculated like this:
+
+        Total element width = width + left padding + right padding + left border + right border
+
+        The total height of an element should be calculated like this:
+
+        Total element height = height + top padding + bottom padding + top border + bottom border
+
+        Note: The margin property also affects the total space that the box will take up on the page, but the margin is not included in the actual size of the box. The box's total width and height stops at the border.
+
+
+        Width Calculation:
+        -----------------
+        Content Width: 300px (as given).
+        Padding: 20px (left) + 20px (right) = 40px.
+        Border: 1px (left) + 1px (right) = 2px.
+        Total Width:
+        300px (content width) + 40px (padding) + 2px (border)
+        = 342px.
+
+        Height Calculation:
+        ------------------
+        Content Height: 50px (you haven't explicitly defined height, so we assume it as given).
+        Padding: 20px (top) + 20px (bottom) = 40px.
+        Border: 1px (top) + 1px (bottom) = 2px.
+        Total Height:
+        50px (content height) + 40px (padding) + 2px (border)
+        = 92px. 
+        */
+    </style>
+</head>
+<body>
+    <div id="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, explicabo.
+    </div>
+</body>
+</html>
