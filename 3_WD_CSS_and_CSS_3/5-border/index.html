@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            /*
+            The style value can be one of the following:
+
+            none: No border (default).
+            solid: Single solid line.
+            dashed: Dashed line.
+            dotted: Dotted line.
+            double: Two solid lines.
+            groove: 3D groove effect.
+            ridge: 3D ridge effect.
+            inset: 3D inset effect.
+            outset: 3D outset effect.
+            */
+
+            /* border: 2px solid violet; */
+            /* border: 2px dotted violet; */
+            /* border: 2px dashed violet; */
+            /* border: 10px double violet; */
+            /* border: 10px groove violet; */
+            /* border: 10px ridge violet; */
+            /* border: 10px inset violet; */
+            /* border: 10px outset violet; */
+
+            /* 
+            Individual Properties:
+            You can also define borders for each side (top, right, bottom, left) separately: */
+            /* border-top: 5px solid violet;
+            border-right: 5px dotted violet;
+            border-bottom: 5px dashed violet;
+            border-left: 5px groove violet; */
+
+            /* border-color-property */
+            /* border: 10px solid; */
+            /* border-color: violet; */
+            /* border-color: violet rgb(45, 18, 109) rgb(56, 190, 44) rgb(197, 154, 12); */
+            /* border-color: transparent violet transparent transparent; */
+
+            /* border-top: 20px solid violet;
+            border: 20px solid violet; */
+            /* To make the borders rounded, you can use the border-radius property: */
+            /* border-radius: 10px; */
+            /* border-radius: 10px 50px; */
+            /* border-radius: 50px 10px; */
+            /* border-radius: 10px 10px 100px 10px; */
+
+            /* syntax:
+                border-image: source slice width outset repeat;
+
+                Here’s what each value means:
+
+                - source: The image URL or gradient to be used as the border.
+                - slice: Defines how the image is divided into nine sections (like a 3x3 grid).
+                - width: Sets the width of the border image.
+                - outset: Specifies the space outside the element for the border image.
+                - repeat: Defines how the image is repeated or stretched (stretch, repeat, or round).
+
+            */
+
+            border-image-source: url('https://img.freepik.com/free-vector/white-polka-dots-black-background_78370-2602.jpg?semt=ais_hybrid');
+            border-image-slice: 50;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <h3>syntax: border: width style color;</h3>
+        <p>
+            The border property is used to define the boundary around an element. It is a shorthand property that allows you to set the width, style, and color of an element's border. Borders can help to visually separate elements, highlight them, or add a decorative touch.
+        </p>
+    </div>
+</body>
+</html>

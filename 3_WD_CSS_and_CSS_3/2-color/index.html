@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            /* 1. Named Colors */
+            /* color: violet; */
+
+            /* 2. Hexadecimal Colors: 0123456789[A-F, a-f] */
+            color: #ff0000;
+            color: #00ff00;
+            color: #0000ff;
+            color: #ffff00;
+            color: #00ffff;
+            color: #ff00ff;
+            color: #aaaaaa; /* lowercase */
+            color: #AAAAAA; /* uppercase */
+            color: #f00; 
+            color: #0f0; 
+            color: #00f; 
+            /* color: #gggggg; - invalid  color code */
+
+            /* 3. RGB Colors */
+            color: rgb(255, 0, 0);
+            color: rgb(0, 255, 0);
+            color: rgb(0, 0, 255);
+            color: rgb(85, 85, 85);
+            /* color: rgb(256, 256, 256); - invalid color code */
+
+            /* 4. RGBA Colors */
+            color: rgb(255, 0, 0, 0);
+            color: rgb(255, 0, 0, 0.1);
+            color: rgb(255, 0, 0, 0.5);
+            color: rgb(255, 0, 0, 0.9);
+            color: rgb(255, 0, 0, 1);
+
+            /* 5. HSL Colors : degrees, percentages, and lightness */
+            color: hsl(0, 100%, 50%);
+            color: hsl(120, 100%, 50%);
+            color: hsl(240, 100%, 50%);
+            color: hsl(360, 100%, 50%);
+
+            /* 6. HSLA Colors */
+            color: hsl(0, 100%, 50%, 0);
+            color: hsl(0, 100%, 50%, 0.1);
+            color: hsl(0, 100%, 50%, 0.5);
+            color: hsl(0, 100%, 50%, 0.9);
+            color: hsl(0, 100%, 50%, 1);
+
+            
+
+
+        }
+
+        /* Global Values */
+        #box{
+            color: cadetblue;
+        }
+
+        /* #box > p{
+            color: rgb(197, 149, 85);
+        } */
+
+        p{
+            color: unset;
+            color: inherit;
+            color: initial;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    syntax: text color
+
+    color: value;
+
+    value: Specifies the color. It can be defined in various formats like keyword names, hexadecimal values, RGB, HSL, or using global values.
+
+    1. Named Colors
+    color: red;
+
+    2. Hexadecimal Colors
+    Hexadecimal values represent colors using a # followed by 3 or 6 characters.
+    color: #ff0000; /* Red */
+    color: #00ff00; /* Green */
+    color: #0000ff; /* Blue */
+    color: #f00;    /* Shortened red */
+
+    3. RGB Colors
+    The RGB function allows you to specify colors using Red, Green, and Blue values ranging from 0 to 255.
+    color: rgb(255, 0, 0); /* Red */
+    color: rgb(0, 255, 0); /* Green */
+    color: rgb(0, 0, 255); /* Blue */
+
+    4. RGBA Colors
+    RGBA is an extension of RGB that includes an alpha channel for transparency (values range from 0 to 1).
+    color: rgba(255, 0, 0, 0.5); /* Semi-transparent red */
+
+
+    5. HSL Colors
+    HSL (Hue, Saturation, Lightness) defines colors using degrees, percentages, and lightness.
+    color: hsl(0, 100%, 50%); /* Red */
+    color: hsl(120, 100%, 50%); /* Green */
+    color: hsl(240, 100%, 50%); /* Blue */
+
+    6. HSLA Colors
+    HSLA adds an alpha channel for transparency.
+    color: hsla(0, 100%, 50%, 0.5); /* Semi-transparent red */
+
+
+    Global Values
+    inherit: Inherits the color from its parent element.
+    initial: Resets to the default color (usually black for most browsers).
+    unset: Removes the assigned color, making it behave as if it’s not set.
+    -->
+
+    <!-- <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1> -->
+
+    <div id="box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet accusantium laboriosam totam nam officia voluptas cum ad libero molestiae vitae.
+        </p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, quos! Iste, qui voluptatibus!
+        </p>
+    </div>
+</body>
+</html>
