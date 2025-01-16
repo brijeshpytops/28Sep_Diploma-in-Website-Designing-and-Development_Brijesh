@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float, Clear and alignment</title>
+    <style>
+        p{
+            width: 100px;
+            border: 1px solid;
+            padding: 10px;
+            border-radius: 5px;
+            float: left;
+        }
+        .clear-float{
+            clear: left;
+        }
+        .box{
+            width: 200px;
+            border: 1px solid;
+            padding: 10px;
+            border-radius: 5px;
+            /* text-align: left; */
+            /* text-align: right; */
+            /* text-align: center; */
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    The float property is used to position an element to the left or right of its container, allowing text and inline elements to flow around it. It was traditionally used for creating multi-column layouts, but with the advent of flexbox and grid, its usage has declined for layout purposes.
+
+    float: left | right | none | inherit;
+
+    - left: The element floats to the left of its container, and content flows around its right.
+    - right: The element floats to the right of its container, and content flows around its left.
+    - none: Default value. The element does not float.
+    - inherit: Inherits the float value from the parent element.
+
+    The clear property is used to specify that an element should not be next to floating elements. It is often used to prevent elements from overlapping or flowing under/over floated elements.
+
+    clear: left | right | both | none | inherit;
+
+    - left: The element will move down until it is clear of floating elements on the left.
+    - right: The element will move down until it is clear of floating elements on the right.
+    - both: The element will move down until it is clear of floating elements on both sides.
+    - none: Default value. The element does not clear floating elements
+    
+    CSS alignment properties are used to position content or elements horizontally and vertically within their container. Some common alignment techniques include:
+
+    text-align: left | right | center | justify;
+
+    - left: Aligns text to the left.
+    - right: Aligns text to the right.
+    - center: Centers text horizontally.
+    - justify: Stretches text to align with both left and right edges.
+
+
+    -->
+    <!-- <h1>Float, Clear and Alignment</h1>
+
+    <div class="box">
+        <p>This is a box with float property.</p>
+        <p>This is another box with float property.</p>
+        <p>This is a box with float property.</p>
+        <p class="clear-float">This box has clear float property.</p>
+        <p>This is a box with float property.</p>
+    </div> -->
+
+    <div class="box">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus optio delectus tempore magni, architecto inventore quod dolore officia maxime earum, officiis aliquid obcaecati quos non iste? Sed reiciendis vitae nisi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus minus, quidem accusamus eum optio magni dolore cupiditate aspernatur enim quibusdam tenetur ratione dolores nisi accusantium explicabo. Nisi non natus at?
+    </div>
+</body>
+</html>

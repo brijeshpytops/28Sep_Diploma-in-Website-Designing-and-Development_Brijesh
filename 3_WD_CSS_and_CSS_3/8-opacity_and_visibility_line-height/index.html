@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opacity and Visibility and Line Height</title>
+    <style>
+        .box1{
+            width: 200px;
+            border: 1px solid violet;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: justify;
+            opacity: 0.65;
+            /* visibility: hidden; */
+            /* visibility: visible; */
+            /* visibility: collapse; */
+        }
+        .box1:hover{
+            opacity: 1;
+            color: violet;
+        }
+
+        .box2{
+            width: 200px;
+            border: 1px solid violet;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: justify;
+            margin: 10px 0;
+            /* line-height: normal; */
+            /* line-height: 2; */
+            /* line-height: 24px; */
+            /* line-height: 200%; */
+            line-height: inherit;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    In CSS, opacity and visibility are properties used to control the appearance of elements. While they may seem similar, they behave differently in how they affect the element and its space in the layout.
+
+    The opacity property controls the transparency level of an element. It allows you to make an element fully visible, fully transparent, or anywhere in between.
+
+    opacity: value;
+
+    value: A number between 0 and 1:
+    1 means fully opaque (default, fully visible).
+    0 means fully transparent (completely invisible).
+    A value like 0.5 makes the element 50% transparent.
+
+    Effects:
+    The element remains in the layout and is interactive (e.g., clickable), even when fully transparent (opacity: 0).
+
+    The opacity property does not affect the size of the element. It only affects how it appears.
+
+    The visibility property controls whether an element is visible or hidden. Unlike opacity, visibility affects whether the element is interactable and whether it takes up space in the layout.
+
+    visibility: visible | hidden | collapse | inherit;
+
+    - visible: The element is fully visible (default).
+    - hidden: The element is hidden but still takes up space in the layout.
+    - collapse: For table elements, the element is removed from the layout (works like display: none for tables).
+    - inherit: Inherits the visibility value from its parent.
+    
+    Effects:
+    - The element is not interactive when visibility: hidden.
+    - It still occupies space in the layout.
+
+
+    The line-height property in CSS is used to control the vertical space between lines of text within an element. It is a key property for managing text readability and layout.
+
+    line-height: normal | number | length | percentage | inherit;
+
+    normal (default):
+
+    - The browser calculates a reasonable line height based on the font size.
+    - Typically, it is around 1.2 times the font size, but this may vary between browsers and fonts.
+
+    number:
+
+    - A multiplier of the font size.
+    For example, line-height: 1.5; means the line height is 1.5 times the font size.
+
+    length:
+
+    - A specific value using units such as px, em, or rem to set the line height explicitly.
+    For example, line-height: 24px;.
+
+    percentage:
+
+    - Specifies the line height as a percentage of the element's font size.
+    For example, line-height: 150%;.
+
+    inherit:
+
+    - The line height is inherited from the parent element.
+    -->
+
+    <div class="box1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione placeat tenetur assumenda in sit nobis doloribus sunt reprehenderit, laudantium perspiciatis veritatis labore itaque, excepturi rem iusto vero possimus dignissimos molestiae.</div>
+
+    <div class="box2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione placeat tenetur assumenda in sit nobis doloribus sunt reprehenderit, laudantium perspiciatis veritatis labore itaque, excepturi rem iusto vero possimus dignissimos molestiae.</div>
+
+
+</body>
+</html>
