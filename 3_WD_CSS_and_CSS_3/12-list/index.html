@@ -1,0 +1,43 @@
+<!-- 
+ 
+ CSS Lists
+CSS list properties style ordered and unordered lists. Key properties include:
+
+list-style-type: Changes the bullet or numbering style (disc, circle, square, decimal, etc.).
+Example: list-style-type: square;
+list-style-position: Defines the position of bullets or numbers (inside, outside).
+Example: list-style-position: inside;
+list-style-image: Sets a custom image as a bullet.
+Example: list-style-image: url('bullet.png');
+Shorthand: list-style combines all three properties.
+Example: list-style: square inside url('bullet.png');
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style-type: disc;
+            list-style-type: circle;
+            list-style-type: square;
+            list-style-type: decimal;
+            background-color: lightgrey;
+            border: 2px solid black;
+            list-style-position:inside;
+            list-style-position:outside;
+            list-style: circle inside url('https://arrow.apache.org/img/arrow-logo_chevrons_black-txt_white-bg.png');
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>item-1</li>
+        <li>item-2</li>
+        <li>item-3</li>
+        <li>item-4</li>
+    </ul>
+</body>
+</html>

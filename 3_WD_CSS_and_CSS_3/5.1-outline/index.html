@@ -1,0 +1,40 @@
+<!-- 
+ 
+CSS outline property is used to draw a line outside the element's border to make it stand out. Unlike borders, outlines do not take up space in the layout and do not affect the element's size.
+
+Key Outline Properties
+outline-style
+Specifies the style of the outline.
+Values:
+
+none (default)
+solid
+dotted
+dashed
+double
+groove
+ridge
+inset
+outset
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px solid black;
+            outline: 3px dashed red;
+            outline-offset: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam veritatis sequi consequatur harum maxime labore modi perspiciatis vero temporibus voluptatum!
+    </div>
+</body>
+</html>
