@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        nav{
+            height: 100px;
+            background-color: #979797;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+
+        }
+        /* .logo, .menus, .search{
+            height: 100%;
+        } */
+        .logo img{
+            height: 70px;
+        }
+        .menus > ul{
+            display: flex;
+        }
+        .menus > ul li{
+            margin-left: 20px;
+            list-style: none;
+        }
+        .menus > ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        .search{
+            display: flex;
+            align-items: center;
+        }
+        .search input, button{
+            height: 40px;
+            padding: 0 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .active {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://media.licdn.com/dms/image/v2/C4D05AQFoyd_PaAJhVA/feedshare-thumbnail_720_1280/feedshare-thumbnail_720_1280/0/1616679249112?e=2147483647&v=beta&t=Qtx0sIFOfZdIOdkZcUxj-CYBLSWDuftHHiS4_fp4YA4" alt="">
+            </div>
+            <div class="menus">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search...">
+                <button type="submit">Search</button>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
