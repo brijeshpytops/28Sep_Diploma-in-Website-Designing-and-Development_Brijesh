@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSITION</title>
+    <style>
+        .boxes{
+            height: 50Vh;
+            width: 100%;
+            border: 1px solid violet;
+            position: relative;
+        }
+
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            display: inline-block;
+            /* border-radius: 15px; */
+        }
+        .box-1{
+            position: relative;
+            background-color: coral;
+        }
+        .box-2{
+            /* position: absolute; */
+            /* background-color: deepskyblue; */
+            /* top:50px;
+            left: 50px; */
+            /* bottom: -100px;
+            left: 50%;
+            transform: translateX(-100px); */
+            /* overflow: hidden; */
+            position: fixed;
+            bottom: 50%;
+        }
+        .box-3{
+            background-color: darkolivegreen;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 
+    
+    In CSS, the position property defines how an element is positioned on the page. It determines the positioning behavior and the placement of an element relative to its normal position, its containing element, or the entire page.
+    -->
+    <div class="boxes">
+        <!-- <div class="box box-1"></div> -->
+        <div class="box box-2"></div>
+        <!-- <div class="box box-3"></div> -->
+    </div>
+</body>
+</html>

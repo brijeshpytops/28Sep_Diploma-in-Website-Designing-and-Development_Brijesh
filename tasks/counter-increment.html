@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            counter-reset: section; 
+        }
+        .item {
+            counter-increment: section; 
+            list-style-type: none;
+        }
+        .item::before {
+            content: counter(section) ". "; 
+            font-weight: bold;
+        }
+
+        .box1 {
+            counter-reset: index; 
+        }
+        .ch1 {
+            counter-increment: index; 
+            list-style-type: none;
+        }
+        .ch1::before {
+            content: counter(section) "." counter(index) ". "; 
+            font-weight: bold;
+        }
+        .box2 {
+            counter-reset: index; 
+        }
+        .ch2 {
+            counter-increment: index; 
+            list-style-type: none;
+        }
+        .ch2::before {
+            content: counter(section) "." counter(index) ". "; 
+            font-weight: bold;
+        }
+        button{
+            cursor: none;
+            cursor: pointer;
+            cursor: copy;
+            cursor: move;
+            cursor: no-drop;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul>
+            <li class="item">ch-1
+                <div class="box1">
+                    <ul>
+                        <li class="ch1">ch-1.1</li>
+                        <li class="ch1">ch-1.2</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="item">ch-2
+                <div class="box2">
+                    <ul>
+                        <li class="ch2">ch-2.1</li>
+                        <li class="ch2">ch-2.2</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="item">ch-3</li>
+            <li class="item">ch-4</li>
+            <li class="item">ch-5</li>
+        </ul>
+    </div>
+
+    <button>Submit</button>
+</body>
+</html>
